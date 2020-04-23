@@ -1,0 +1,124 @@
+.container{
+margin: 0;
+padding-left: 100px;
+padding-right: 100px;
+font-family: Oswald,Arial, Helvetica, sans-serif;
+
+}
+
+#title{
+background-color:#3b5998;
+color: white; 
+padding: 1%;
+text-indent: 30px;
+}
+
+.adopt{
+padding-left: 5%;
+font-weight: normal;
+}
+
+.dog{
+width: 90%;
+font-size: 2em;
+padding: 200px;
+margin: center;
+}
+
+.k9{
+max-width: 95%;
+display: flex;
+}
+
+#dogs{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows:repeat(3,1fr);
+align-items: flex-start;
+justify-items: center;
+padding: 4%;
+}
+
+ul{
+padding:0;
+margin-top: -24px;
+}
+
+li{
+display: inline;
+background-color: lightskyblue;
+border-radius: 25px;
+font-size: 10px;
+}
+
+.footer{
+display: flex;
+flex-basis: 33%;
+justify-content:space-evenly;
+margin: 0%;
+padding: 0px;
+
+}
+
+.footer1{
+background-image: url(starter_files/images/donate.jpg);
+background-size: 105%;
+height: 200px;
+width: 300px;
+color: white;
+
+}
+
+.footer2{
+background-image: url(starter_files/images/volunteer.jpg);
+background-size: 105%;
+height: 200px;
+width: 300px;
+color: white;
+}
+
+
+.footer3{
+background-image: url(starter_files/images/location.png);
+background-size: 105%;
+height: 200px;
+width: 300px;
+color: white;
+text-align: center;
+}
+
+#donate{
+line-height: 10px;
+}
+
+/*
+@media(max-width:768px){
+
+.dog{
+display: flex;
+align-items: left;
+flex-basis: 30%;
+justify-content: space-around;
+flex-wrap: wrap;
+}                              
+}        
+
+.dog div{
+list-style-type: none;
+margin: 0;
+padding: 0;
+border: black;
+} 
+
+
+.dogs{
+justify-content: left space-evenly;
+width: 20%;
+} */
+
+
+
+/* Need background-image: url('pattern.jpeg')
+background-image: linear-gradient (rgba(255,255,0,0.5), rgba(x,x,x,x)*/
+
+/* background-cover */
